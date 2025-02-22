@@ -1,24 +1,30 @@
 # Moniepoint_hackathon
-Author: Oluwatimilehin Folarin
 
-Moniepoint hackathon
+### Author: Oluwatimilehin Folarin
 
-Date: 22-02-2025
+### Date: 22-02-2025
 
-Intended Programming Language of Choice: Python
+### Intended Programming Language of Choice: Python
 
-Steps: First, I would be building the model using Jupyter Notebook, convert to Python file, and then deploy using FastAPI
-Run the API file on command prompt using: uvicorn moniepoint_api:app --reload. 
-Afterwards, use this link to open the API on your web browser: http://127.0.0.1:8000/docs
+### The Steps Taken: 
+- First, I built the model using Jupyter Notebook, converted it to a Python file, and then deployed it using FastAPI
+- Next, I ran the API file on the command prompt using this: uvicorn moniepoint_api:app --reload. 
+- Afterward, I used this link to open the API on the web browser: http://127.0.0.1:8000/docs
 
-Task: To build analytics software that reads through transactions’ files and reports the following metrics:
+### Task: 
+To build analytics software that reads through transactions’ files and reports the following metrics:
 1) Highest sales volume in a day
 2) Highest sales value in a day
 3) Most sold product ID by volume
 4) Highest sales staff ID for each month.
 5) Highest hour of the day by average transaction volume
 
-FastAPI interface for the analytics software:
+### Note:
+- The analytics Software was developed using Python.
+- For online accessibility, an API was created using FastAPI, which the frontend developer can further work on for an improved user interface.
+
+
+# FastAPI interface for the analytics software:
 
 ![API interface_1](https://github.com/user-attachments/assets/5a436d1e-bf8c-49f4-9b86-7f75becfb35c)
 
