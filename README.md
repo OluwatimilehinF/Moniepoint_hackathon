@@ -6,11 +6,6 @@
 
 ### Intended Programming Language of Choice: Python
 
-### The Steps Taken: 
-- First, I built the model using Jupyter Notebook, converted it to a Python file, and then deployed it using FastAPI
-- Next, I ran the API file on the command prompt using this: uvicorn moniepoint_api:app --reload. 
-- Afterward, I used this link to open the API on the web browser: http://127.0.0.1:8000/docs
-
 ### Task: 
 To build analytics software that reads through transactions’ files and reports the following metrics:
 1) Highest sales volume in a day
@@ -18,6 +13,11 @@ To build analytics software that reads through transactions’ files and reports
 3) Most sold product ID by volume
 4) Highest sales staff ID for each month.
 5) Highest hour of the day by average transaction volume
+
+### The Steps Taken: 
+- First, I built the model using Jupyter Notebook, converted it to a Python file, and then deployed it using FastAPI
+- Next, I ran the API file on the command prompt using this: uvicorn moniepoint_api:app --reload. 
+- Afterward, I used this link to open the API on the web browser: http://127.0.0.1:8000/docs
 
 ### Note:
 - The analytics Software was developed using Python.
